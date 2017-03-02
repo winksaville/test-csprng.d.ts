@@ -1,0 +1,4 @@
+{
+  "name": "csprng",
+  "main": "csprng.d.ts"
+}

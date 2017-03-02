@@ -1,0 +1,20 @@
+{
+  "name": "test-csprng.d.ts",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Wink Saville",
+  "license": "Unlicense",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test.js"
+  },
+  "include": [
+    "srcs/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "csprng": "^0.1.2"
+  }
+}

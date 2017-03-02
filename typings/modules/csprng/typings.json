@@ -1,0 +1,9 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/home/wink/prgs/test-csprng.d.ts/typings.json",
+    "raw": "file:typings.json",
+    "main": "csprng.d.ts",
+    "name": "csprng"
+  }
+}
