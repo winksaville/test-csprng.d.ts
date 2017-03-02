@@ -1,9 +1,8 @@
 {
   "resolution": "main",
   "tree": {
-    "src": "/home/wink/prgs/test-csprng.d.ts/typings.json",
-    "raw": "file:typings.json",
-    "main": "csprng.d.ts",
-    "name": "csprng"
+    "src": "/home/wink/prgs/test-csprng.d.ts/csprng.d.ts",
+    "raw": "file:csprng.d.ts",
+    "typings": "/home/wink/prgs/test-csprng.d.ts/csprng.d.ts"
   }
 }

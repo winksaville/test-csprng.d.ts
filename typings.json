@@ -1,4 +1,7 @@
 {
   "name": "csprng",
-  "main": "csprng.d.ts"
+  "main": "csprng.d.ts",
+  "devDependencies": {
+    "csprng": "file:csprng.d.ts"
+  }
 }

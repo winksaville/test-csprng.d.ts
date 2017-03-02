@@ -5,7 +5,8 @@
   "author": "Wink Saville",
   "license": "Unlicense",
   "scripts": {
-    "build": "tsc",
+    "typings": "typings install file:csprng.d.ts --save-dev",
+    "pretest": "tsc",
     "test": "node test.js"
   },
   "include": [
