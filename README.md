@@ -39,3 +39,18 @@ error Command failed with exit code 1.
 ```
 
 I also tried a non-default definition and it fails the same way.
+
+## The following test.ok.js with assigning and using `rand`:
+```
+$ cat test.ok.js
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var rand = require("csprng");
+console.log('rand(32, 16)=%s', rand(32, 16));
+```
+
+Works
+```
+$ node test.ok.js
+rand(32, 16)=724d17f0
+```
